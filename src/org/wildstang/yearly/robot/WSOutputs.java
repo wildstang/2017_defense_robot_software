@@ -17,15 +17,15 @@ import edu.wpi.first.wpilibj.I2C;
 
 public enum WSOutputs implements Outputs
 {
-   LEFT_1("Left motor 1",            WSOutputType.VICTOR,    new WsVictorConfig(0, 0.0), getLogging()),
-   LEFT_2("Left motor 2",          WSOutputType.VICTOR,    new WsVictorConfig(1, 0.0), getLogging()),
-   RIGHT_1("Right motor 1",              WSOutputType.VICTOR,    new WsVictorConfig(2, 0.0), getLogging()),
-   RIGHT_2("Right motor 2",            WSOutputType.VICTOR,    new WsVictorConfig(3, 0.0), getLogging()),
+   LEFT_1("Left motor 1",		WSOutputType.VICTOR, new WsVictorConfig(0, 0.0), getLogging()),
+   LEFT_2("Left motor 2",       	WSOutputType.VICTOR, new WsVictorConfig(1, 0.0), getLogging()),
+   RIGHT_1("Right motor 1",     	WSOutputType.VICTOR, new WsVictorConfig(2, 0.0), getLogging()),
+   RIGHT_2("Right motor 2",     	WSOutputType.VICTOR, new WsVictorConfig(3, 0.0), getLogging()),
    
-   LED("LEDs", WSOutputType.I2C, new WsI2COutputConfig(I2C.Port.kMXP, 0x10), true),
+   LED("LEDs", 				WSOutputType.I2C, new WsI2COutputConfig(I2C.Port.kMXP, 0x10), true),
 
    // Solenoids
-   SHIFTER("Shifter double solenoid", WSOutputType.SOLENOID_DOUBLE, new WsDoubleSolenoidConfig(1, 0, 1, WsDoubleSolenoidState.FORWARD), getLogging());
+   SHIFTER("Shifter double solenoid", 	WSOutputType.SOLENOID_DOUBLE, new WsDoubleSolenoidConfig(1, 0, 1, WsDoubleSolenoidState.FORWARD), getLogging());
    
    private String m_name;
    private OutputType m_type;
