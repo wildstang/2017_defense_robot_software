@@ -52,30 +52,30 @@ public enum WSInputs implements Inputs
 
    // Manipulator Enums
    // Manipulator Joysticks
-   MAN_LEFT_JOYSTICK_X("Manip Left Joystick X",		WSInputType.JS_JOYSTICK, new WsJSJoystickInputConfig(1, JoystickConstants.LEFT_JOYSTICK_X), getLogging()),
-   MAN_LEFT_JOYSTICK_Y("Manip Left Joystick Y",		WSInputType.JS_JOYSTICK, new WsJSJoystickInputConfig(1, JoystickConstants.LEFT_JOYSTICK_Y), getLogging()),
-   MAN_RIGHT_JOYSTICK_X("Manip Right Joystick X",	WSInputType.JS_JOYSTICK, new WsJSJoystickInputConfig(1, JoystickConstants.RIGHT_JOYSTICK_X), getLogging()),
-   MAN_RIGHT_JOYSTICK_Y("Manip Right Joystick Y",	WSInputType.JS_JOYSTICK, new WsJSJoystickInputConfig(1, JoystickConstants.RIGHT_JOYSTICK_Y), getLogging()),
-   
-   // Manipulator DPAD Buttons
-   MAN_DPAD_X_LEFT("Manip DPAD X Left",			WSInputType.JS_DPAD_BUTTON,new WsJSButtonInputConfig(1, JoystickConstants.DPAD_X_LEFT), getLogging()),
-   MAN_DPAD_X_RIGHT("Manip DPAD X Right",		WSInputType.JS_DPAD_BUTTON,new WsJSButtonInputConfig(1, JoystickConstants.DPAD_X_RIGHT), getLogging()),
-   MAN_DPAD_Y_UP("Manip DPAD Y Up", 			WSInputType.JS_DPAD_BUTTON,new WsJSButtonInputConfig(1, JoystickConstants.DPAD_Y_UP), getLogging()),
-   MAN_DPAD_Y_DOWN("Manip DPAD Y Down", 		WSInputType.JS_DPAD_BUTTON,new WsJSButtonInputConfig(1, JoystickConstants.DPAD_Y_DOWN), getLogging()),
-   
-   // Manipulator Buttons
-   MAN_BUTTON_1("Manip Deploy Climber Arm",		WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 0), getLogging()),
-   MAN_BUTTON_2("Manip Deploy Climber Hook",	WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 1), getLogging()),
-   MAN_BUTTON_3("Manip Flywheel on_off",		WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 2), getLogging()),
-   MAN_BUTTON_4("Manip Shot Distance",			WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 3), getLogging()),
-   MAN_BUTTON_5("Manip Intake Nose",			WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 4), getLogging()),
+   //MAN_LEFT_JOYSTICK_X("Manip Left Joystick X",		WSInputType.JS_JOYSTICK, new WsJSJoystickInputConfig(1, JoystickConstants.LEFT_JOYSTICK_X), getLogging()),
+   //MAN_LEFT_JOYSTICK_Y("Manip Left Joystick Y",		WSInputType.JS_JOYSTICK, new WsJSJoystickInputConfig(1, JoystickConstants.LEFT_JOYSTICK_Y), getLogging()),
+   //MAN_RIGHT_JOYSTICK_X("Manip Right Joystick X",	WSInputType.JS_JOYSTICK, new WsJSJoystickInputConfig(1, JoystickConstants.RIGHT_JOYSTICK_X), getLogging()),
+   //MAN_RIGHT_JOYSTICK_Y("Manip Right Joystick Y",	WSInputType.JS_JOYSTICK, new WsJSJoystickInputConfig(1, JoystickConstants.RIGHT_JOYSTICK_Y), getLogging()),
+   //
+   //// Manipulator DPAD Buttons
+   //MAN_DPAD_X_LEFT("Manip DPAD X Left",			WSInputType.JS_DPAD_BUTTON,new WsJSButtonInputConfig(1, JoystickConstants.DPAD_X_LEFT), getLogging()),
+   //MAN_DPAD_X_RIGHT("Manip DPAD X Right",		WSInputType.JS_DPAD_BUTTON,new WsJSButtonInputConfig(1, JoystickConstants.DPAD_X_RIGHT), getLogging()),
+   //MAN_DPAD_Y_UP("Manip DPAD Y Up", 			WSInputType.JS_DPAD_BUTTON,new WsJSButtonInputConfig(1, JoystickConstants.DPAD_Y_UP), getLogging()),
+   //MAN_DPAD_Y_DOWN("Manip DPAD Y Down", 		WSInputType.JS_DPAD_BUTTON,new WsJSButtonInputConfig(1, JoystickConstants.DPAD_Y_DOWN), getLogging()),
+   //
+   //// Manipulator Buttons
+   //MAN_BUTTON_1("Manip Deploy Climber Arm",		WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 0), getLogging()),
+   //MAN_BUTTON_2("Manip Deploy Climber Hook",	WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 1), getLogging()),
+   //MAN_BUTTON_3("Manip Flywheel on_off",		WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 2), getLogging()),
+   //MAN_BUTTON_4("Manip Shot Distance",			WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 3), getLogging()),
+   //MAN_BUTTON_5("Manip Intake Nose",			WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 4), getLogging()),
    MAN_BUTTON_6("Manip Shooter Hood",			WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 5), getLogging()),
    MAN_BUTTON_7("Manip Deploy Intake",			WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 6), getLogging()),
    MAN_BUTTON_8("Manip Shoot", 					WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 7), getLogging()),
-   MAN_BUTTON_9("Override", 					WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 8), getLogging()),
-   MAN_BUTTON_10("Manipulator button 10", 		WSInputType.JS_BUTTON, new WsJSButtonInputConfig(1, 9), getLogging()),
-   MAN_BUTTON_11("Manipulator button 11", 		WSInputType.JS_BUTTON, new WsJSButtonInputConfig(1, 10), getLogging()),
-   MAN_BUTTON_12("Manipulator button 12", 		WSInputType.JS_BUTTON, new WsJSButtonInputConfig(1, 11), getLogging()),
+   //MAN_BUTTON_9("Override", 					WSInputType.JS_BUTTON,new WsJSButtonInputConfig(1, 8), getLogging()),
+   //MAN_BUTTON_10("Manipulator button 10", 		WSInputType.JS_BUTTON, new WsJSButtonInputConfig(1, 9), getLogging()),
+   //MAN_BUTTON_11("Manipulator button 11", 		WSInputType.JS_BUTTON, new WsJSButtonInputConfig(1, 10), getLogging()),
+   //MAN_BUTTON_12("Manipulator button 12", 		WSInputType.JS_BUTTON, new WsJSButtonInputConfig(1, 11), getLogging()),
    // 
    // LIMIT_SWITCH("Limit switch", WSInputType.SWITCH, 0, getLogging()),
    IMU("IMU", 						WSInputType.I2C, new WsI2CInputConfig(I2C.Port.kMXP, 0x20), getLogging()),
